@@ -6,12 +6,11 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
-    "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "postcss css/tailwind.css -o build/tailwind.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
