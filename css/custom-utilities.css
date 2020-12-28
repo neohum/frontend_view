@@ -6,3 +6,35 @@ font-family: 'Noto Sans KR', sans-serif;
     font-size: 4.5rem;
     line-height: 1;
 }
+
+.bg-mint {
+    background: #11b483;
+}
+
+.top-feature {
+	position:relative;
+	margin:0;
+	padding:40px 0
+}
+.top-feature .top-feature-img {
+	max-width:100%;
+	margin:20px 0 0
+}
+.top-feature:first-of-type {
+	margin-top:60px
+}
+.top-feature.features {
+	overflow:hidden
+}
+.top-feature .media {
+	margin-top:20px
+}
+.top-feature .media>.pull-left {
+	margin-right:20px
+}
+.top-feature.top-feature-2,.top-feature.user-review {
+	background-color:#f3f3f3
+}
+.top-feature.user-review footer {
+	margin-top:0
+}
