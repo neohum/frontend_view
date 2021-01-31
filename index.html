@@ -155,7 +155,7 @@
     </div>
   
 
-  <div class="w-full container bg-gray-50">
+  <div class="w-full container mx-auto bg-gray-50">
     <div class="w-full mx-auto flex flex-wrap mb-10 mt-16 sm:mt-32 text-gray-900">
       <div class="w-full text-4xl text-right font-bold pb-2">
         행정업무를 보는 시간을 효율적으로
@@ -253,10 +253,20 @@
 
 
 
-  <div class="w-full container">
+  <div class="w-full container mx-auto">
     <div class="mx-auto flex mb-10 mt-16 sm:mt-32 justify-center">
-      <div class="flex flex-col sm:w-1/2 p-6 pl-10 text-2xl text-white justify-evenly">
-        <div class="flex">
+      <div class="flex flex-col sm:w-auto p-6 pl-10 text-2xl text-white justify-evenly">
+        <div class="text-4xl font-bold text-gray-900 text-center leading-snug">
+          <p>
+            SimpleTime은 다양한 기능을 제공합니다.
+          </p>
+          <p>
+            간편하게 이용 할수 있도록 여러 컨텐츠를 모아놨습니다.
+          </p>
+        </div>
+
+      
+        <div class="flex py-10 pl-24">
           <div class="flex w-20 h-20 font-medium rounded-full bg-indigo-600 items-center justify-center">
             01
           </div>
@@ -265,7 +275,7 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="flex pb-10 pl-24">
           <div class="flex w-20 h-20 font-medium rounded-full bg-indigo-600 items-center justify-center">
             02
           </div>
@@ -274,7 +284,7 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="flex pb-10 pl-24">
           <div class="flex w-20 h-20 font-medium rounded-full bg-indigo-600 items-center justify-center">
             03
           </div>
@@ -283,7 +293,7 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="flex pl-24">
           <div class="flex w-20 h-20 font-medium rounded-full bg-indigo-600 items-center justify-center">
             04
           </div>
@@ -292,53 +302,37 @@
           </div>
         </div>
       </div>
-
-      <div class="flex flex-col sm:w-1/3 p-6 text-center self-center">
-        <div class="py-6 text-2xl font-medium rounded-t-2xl text-white bg-indigo-600">
-          이용 요금
-        </div>
-        <div class="py-20 text-6xl font-medium text-white bg-blue-900">
-          1 년<br>
-          10만원
-        </div>
-        <div class="py-24 text-2xl font-medium rounded-b-2xl text-gray-600 bg-gray-300">
-          누구나<br>
-          간단하게 이용가능
-        </div>
-      </div>  
     </div>
 
 
-    <div class="w-full container">
-      <div class="mx-auto flex mb-10 mt-16 sm:mt-32 justify-center">
-        <div class="flex flex-col sm:w-1/3 p-6 text-center self-center">
-          <div class="py-6 text-2xl font-medium rounded-t-2xl text-white bg-indigo-600">
-            이용 요금
+        <div class="w-full container flex mx-auto mb-10 mt-16 sm:mt-32 justify-center sm:w-1/3 p-6">
+          <div class="flex flex-col py-10 px-10 text-center font-medium rounded-2xl text-white bg-gradient-to-b from-indigo-400 via-indigo-600 to-indigo-800">
+            <div class="text-2xl">
+              이용요금
+            </div>
+            <div class="py-7 text-end">
+               <a class="text-6xl">
+                 99999원
+                </a>
+                <a class="text-xl justify-self-end">
+                   / VAT(별도)
+                </a>
+            </div>
+            <div class="text-2xl pb-7">
+              <p>한번의 가입으로</p>
+              <p>1년동안 사용하실수 있습니다.</p>
+            </div>
+            <div class="text-xl pb-7 pl-3 leading-loose text-left">
+              <p>&#9745; 가입부터 실행까지 간편합니다.</p>
+              <p>&#9745; 동선과 시간을 줄여드립니다.</p>
+              <p>&#9745; 꼭 필요한 기능만 넣었습니다.</p>
+              <p>&#9745; 모든 서비스 이용가능</p>
+            </div>
+            <div class="flex text-4xl self-center rounded-md text-indigo-600 bg-white hover:text-indigo-800 px-10 py-2">
+              가입하기
+            </div>
           </div>
-          <div class="py-20 text-6xl font-medium text-white bg-blue-900">
-            1 년<br>
-            10만원
-          </div>
-          <div class="py-24 text-2xl font-medium rounded-b-2xl text-gray-600 bg-gray-300">
-            누구나<br>
-            간단하게 이용가능
-          </div>
-        </div>  
-  
-        <div class="flex flex-col sm:w-1/3 p-6 text-center self-center">
-          <div class="py-6 text-2xl font-medium rounded-t-2xl text-white bg-indigo-600">
-            이용 요금
-          </div>
-          <div class="py-20 text-6xl font-medium text-white bg-blue-900">
-            1 년<br>
-            10만원
-          </div>
-          <div class="py-24 text-2xl font-medium rounded-b-2xl text-gray-600 bg-gray-300">
-            누구나<br>
-            간단하게 이용가능
-          </div>
-        </div>  
-      </div>
+        </div>
   
 
 
@@ -359,7 +353,7 @@
       </div>
     </div>
     <div class="flex flex-col sm:w-1/3 p-6 text-center text-white self-center">
-      <div class="px-24 py-9 border border-gray-900 text-2xl font-medium rounded-2xl bg-blue-700 hover:bg-blue-600">
+      <div class="px-24 py-9 text-2xl font-medium rounded-2xl bg-indigo-600 hover:bg-indigo-800">
         문의 하기
       </div>
     </div>
@@ -369,7 +363,7 @@
 
 <!-- footer -->
 
-<footer class="container mx-auto bg-white pt-8 pb-5 border-t border-gray-400" data-aos="flip-up" data-aos-duration="1000">
+<footer class="w-full container mx-auto bg-white pt-8 pb-5 border-t border-gray-400" data-aos="flip-up" data-aos-duration="1000">
   <div class="container flex px-3 pt-5">
       <div class="w-full mx-auto flex flex-wrap self-end">
           <div class="flex w-full lg:w-1/2 ">
